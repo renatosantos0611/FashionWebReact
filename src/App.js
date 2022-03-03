@@ -1,13 +1,10 @@
-import React from 'react'
+import * as React from "react";
+import "./App.css";
 
-import LoginPage from './Login/login';
-
-function App() {
+export default function App() {
   return (
-    <div>
-      <LoginPage />
-    </div>
+    <>
+      Pagina sem nd
+    </>
   );
 }
-
-export default App;

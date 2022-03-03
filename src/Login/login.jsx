@@ -1,8 +1,21 @@
 import React from 'react'
-import './login.css';
+import '../Styles/login.css';
+
+import { useNavigate, Link } from "react-router-dom";
 
 function LoginPage() {
-  return (
+
+  const navigate = useNavigate()
+
+  const GotoRegister = () => {
+    navigate(`/register`)
+  }
+
+  const GotoForgotPass = () => {
+    navigate(`/forgotpassword`)
+  }
+
+  return (  
     <div className="App">
       
       <span className='background_login'></span>
@@ -18,20 +31,22 @@ function LoginPage() {
         </span>
 
         <div className='box_input'>
-          <p className='input_tx'>Username</p>
+          <p className='input_tx'>Email</p>
           <input className='input' placeholder='exemple@exemple.com'></input>
         </div>
 
         <div className='box_input'>
-          <p className='input_tx'>Password</p>
+          <p className='input_tx'>Senha</p>
           <input className='input' placeholder='****************' type='password' ></input>
         </div>
 
-        <span className='box_forgot_pass'>Esqueci a senha</span>
+        <div className='box_forgot_pass'>
+          <span className='forgot_tx' onClick={GotoForgotPass}>Esqueci a senha</span>
+        </div>
 
         <div className='box_button'>
           <button className='btn_primary'>Login</button>
-          <button className='btn_secundary'>Register</button>
+          <button className='btn_secundary' onClick={GotoRegister}  >Registrar-se</button>
         </div>
 
       </div>
