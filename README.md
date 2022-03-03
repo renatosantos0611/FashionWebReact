@@ -1,4 +1,4 @@
-# Ideia de site de fotos
+# Ideia de App de fotos
 
 # Motivação
 Até então nunca tinha desenvolvido um pequeno sistema proprio com integração a Amazon S3
