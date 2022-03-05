@@ -9,7 +9,7 @@ import App from "../App";
 function LoggedRouters() {
   return (
       <Routes>
-        <Route path="/login" element={<LoginPage />} />
+        <Route index path="/login" element={<LoginPage />} />
         <Route path="/register" element={<RegisterPage />} />
         <Route path="/forgotpassword" element={<ForgotPassPage />} />
         <Route path="/" element={<App />} />

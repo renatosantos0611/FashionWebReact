@@ -159,3 +159,10 @@
   .btn_secundary:active{
     background: rgba(105, 105, 105, 0.7);
   }
+
+  .input_error_tx{
+    font-family: Poppins;
+    font-size: 12px;
+    color: rgb(252, 77, 77);
+    margin-left: 5px;
+  }

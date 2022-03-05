@@ -30,17 +30,17 @@ function RegisterPage() {
 
             <div className='box_input'>
                 <p className='input_tx'>Nome</p>
-                <input className='input' placeholder='James'></input>
+                <input className='input' placeholder='James'/>
             </div>
 
             <div className='box_input'>
                 <p className='input_tx'>Sobrenome</p>
-                <input className='input' placeholder='Bond'></input>
+                <input className='input' placeholder='Bond'/>
             </div>
 
             <div className='box_input'>
                 <p className='input_tx'>Email</p>
-                <input className='input' placeholder='exemple@exemple.com'></input>
+                <input className='input' placeholder='exemple@exemple.com'/>
             </div>
 
             <div className='box_input'>
@@ -50,12 +50,12 @@ function RegisterPage() {
 
             <div className='box_input'>
                 <p className='input_tx'>Confirmar Senha</p>
-                <input className='input' placeholder='****************' type='password' ></input>
+                <input className='input' placeholder='****************' type='password' />
             </div>
 
             <div className='box_input'>
                 <div className="input_tx">
-                    <input type='checkbox'></input>
+                    <input type='checkbox'/>
                     <> Li e concordo com os Termos e Políticas</>
                 </div>  
             </div>
